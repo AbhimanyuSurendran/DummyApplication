@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dummy Application</string>
+    <string name="login_button">login</string>
+    <string name="back_button">back</string>
+    <string name="issue1_button">Problem Related To Transcript</string>
+    <string name="issue2_button">Problem Related To ERP</string>
+    <string name="issue3_button">Problem Related To Attendence</string>
+    <string name="issue4_button">Problem Related To Calender</string>
+    <string name="button1back_button">Back To Issue Page</string>
+    <string name="button2back_button">Back To Issue Page</string>
+    <string name="button3back_button">Back To Issue Page</string>
+    <string name="button4back_button">Back To Issue Page</string>
+    <string name="Forgot_button">Forgot Password</string>
+
+</resources>
