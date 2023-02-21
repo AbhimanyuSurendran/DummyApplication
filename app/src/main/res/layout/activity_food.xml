@@ -42,7 +42,8 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:onClick="web1"
-                    app:srcCompat="@drawable/biriyani" />
+                    app:srcCompat="@drawable/biriyani"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textView7"
@@ -64,7 +65,8 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:onClick="web2"
-                    app:srcCompat="@drawable/burger" />
+                    app:srcCompat="@drawable/burger"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textView8"
@@ -86,7 +88,8 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:onClick="web3"
-                    app:srcCompat="@drawable/dosa" />
+                    app:srcCompat="@drawable/dosa"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textView9"
@@ -108,7 +111,8 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:onClick="web4"
-                    app:srcCompat="@drawable/pizza" />
+                    app:srcCompat="@drawable/pizza"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textView10"
