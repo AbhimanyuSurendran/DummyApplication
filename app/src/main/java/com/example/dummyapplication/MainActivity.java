@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Opening Official Website", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://adypu.edu.in/")));
     }
+
+    public void restaurent(View view) {
+        Toast.makeText(this, "Opening Restaurent Menu", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this,food.class));
+    }
 }

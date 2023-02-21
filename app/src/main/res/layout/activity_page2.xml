@@ -31,15 +31,19 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/logo" />
 
-            <EditText
-                android:id="@+id/editTextTextPersonName2"
-                android:layout_width="147dp"
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="244dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
-                android:text="Select Issues :-" />
+                android:text="Select Issues :-"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
 
             <Button
                 android:id="@+id/button"
@@ -47,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="issue1"
                 android:text="@string/issue1_button"
+                android:textSize="14sp"
                 android:textStyle="bold|italic" />
 
             <Button
@@ -94,6 +99,7 @@
                     android:layout_weight="1"
                     android:text="For Going Back To Login Page ->    "
                     android:textAlignment="textEnd"
+                    android:textColor="#00FFFF"
                     android:textSize="20sp"
                     android:textStyle="bold|italic" />
 
